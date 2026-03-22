@@ -1,0 +1,16 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "Root package to run both frontend and backend concurrently",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
