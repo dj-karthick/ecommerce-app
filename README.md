@@ -3,7 +3,7 @@
 A full-stack, premium e-commerce application built with the MERN stack (MongoDB, Express, React, Node.js). 
 
 ## 🚀 Live Demo
-**[Click here to view the Live Demo]([https://your-live-demo-link.com](http://localhost:5173/))**  
+**[Click here to view the Live Demo]((http://localhost:5173/))**
 *(Replace the link above with your actual deployed application URL)*
 
 ## 🌟 Features
